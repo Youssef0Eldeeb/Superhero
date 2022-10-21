@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10FAAAB2902FD4F009C24F3 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A10FAAAA2902FD4F009C24F3 /* chimeup.mp3 */; };
+		A10FAAAD2902FD7B009C24F3 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10FAAAC2902FD7B009C24F3 /* PlaySound.swift */; };
 		A128720A28F8336B00D0C419 /* SuperheroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128720928F8336B00D0C419 /* SuperheroApp.swift */; };
 		A128720C28F8336B00D0C419 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128720B28F8336B00D0C419 /* ContentView.swift */; };
 		A128720E28F8337200D0C419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A128720D28F8337200D0C419 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A10FAAAA2902FD4F009C24F3 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		A10FAAAC2902FD7B009C24F3 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		A128720628F8336B00D0C419 /* Superhero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superhero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A128720928F8336B00D0C419 /* SuperheroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroApp.swift; sourceTree = "<group>"; };
 		A128720B28F8336B00D0C419 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				A128720F28F8337200D0C419 /* Preview Content */,
 				A128721728F8360400D0C419 /* SuperheroView.swift */,
 				A1AD0F5C29012CBC003BFEE8 /* Superhero.swift */,
+				A10FAAAA2902FD4F009C24F3 /* chimeup.mp3 */,
+				A10FAAAC2902FD7B009C24F3 /* PlaySound.swift */,
 			);
 			path = Superhero;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10FAAAB2902FD4F009C24F3 /* chimeup.mp3 in Resources */,
 				A128721128F8337200D0C419 /* Preview Assets.xcassets in Resources */,
 				A128720E28F8337200D0C419 /* Assets.xcassets in Resources */,
 			);
@@ -143,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10FAAAD2902FD7B009C24F3 /* PlaySound.swift in Sources */,
 				A128720C28F8336B00D0C419 /* ContentView.swift in Sources */,
 				A128720A28F8336B00D0C419 /* SuperheroApp.swift in Sources */,
 				A128721828F8360400D0C419 /* SuperheroView.swift in Sources */,
