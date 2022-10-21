@@ -12,6 +12,7 @@
 		A128720E28F8337200D0C419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A128720D28F8337200D0C419 /* Assets.xcassets */; };
 		A128721128F8337200D0C419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A128721028F8337200D0C419 /* Preview Assets.xcassets */; };
 		A128721828F8360400D0C419 /* SuperheroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128721728F8360400D0C419 /* SuperheroView.swift */; };
+		A1AD0F5D29012CBC003BFEE8 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD0F5C29012CBC003BFEE8 /* Superhero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A128720D28F8337200D0C419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A128721028F8337200D0C419 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A128721728F8360400D0C419 /* SuperheroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroView.swift; sourceTree = "<group>"; };
+		A1AD0F5C29012CBC003BFEE8 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				A128720D28F8337200D0C419 /* Assets.xcassets */,
 				A128720F28F8337200D0C419 /* Preview Content */,
 				A128721728F8360400D0C419 /* SuperheroView.swift */,
+				A1AD0F5C29012CBC003BFEE8 /* Superhero.swift */,
 			);
 			path = Superhero;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				A128720C28F8336B00D0C419 /* ContentView.swift in Sources */,
 				A128720A28F8336B00D0C419 /* SuperheroApp.swift in Sources */,
 				A128721828F8360400D0C419 /* SuperheroView.swift in Sources */,
+				A1AD0F5D29012CBC003BFEE8 /* Superhero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

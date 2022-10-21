@@ -9,10 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     
+    var superhero: [Superhero] = superherosData
+    
     var body: some View {
-        VStack{
-            SuperheroView()
-        }
+        ScrollView(.horizontal){
+            HStack{
+                ForEach(superhero) { item in
+                    SuperheroView(superH: item)
+                }
+            }//: HStack
+            .padding(20)
+        }//: StackView
     }
        
 }

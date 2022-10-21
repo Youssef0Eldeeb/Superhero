@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct SuperheroView: View {
-    let gredient: [Color] = [Color("ColorHulk01"), Color("ColorHulk02")]
+    
+    var superH: Superhero
+    
     @State var isAletPressented: Bool = false
     
     var body: some View {
         ZStack{
-            Image("hulk")
+            Image(superH.image)
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
             
             VStack{
-                Text("Hulk")
+                Text(superH.title)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
@@ -32,17 +34,18 @@ struct SuperheroView: View {
                     .padding()
                     .font(.title2)
                     .foregroundColor(.white)
-                    .background(LinearGradient(gradient: Gradient(colors: gredient), startPoint: .bottomTrailing, endPoint: .topLeading))
+                    .background(LinearGradient(colors: superH.gradientColors, startPoint: .bottomTrailing, endPoint: .topLeading))
                     .clipShape(Capsule())
                     .shadow(radius: 10)
                     .alert(isPresented: $isAletPressented) {
-                        Alert(title: Text("Hulk"), message: Text("Hulk is very big and green"), dismissButton: .default(Text("OK")))
+                        Alert(title: Text("More about \(superH.title)"), message: Text(superH.message), dismissButton: .default(Text("OK")))
                     }
                 }//: label
             }//: VStack
             .offset(x: 0, y: 150)
         }//: ZStack
-        .background(LinearGradient(gradient: Gradient(colors: gredient), startPoint: .topLeading, endPoint: .bottomTrailing))
+        .frame(width: 335, height: 545, alignment: .center)
+        .background(LinearGradient(colors: superH.gradientColors, startPoint: .topLeading, endPoint: .bottomTrailing))
         .cornerRadius(16)
         .shadow(color: .black, radius: 2, x: 2, y: 2)
         
@@ -51,6 +54,6 @@ struct SuperheroView: View {
 
 struct SuperheroView_Previews: PreviewProvider {
     static var previews: some View {
-        SuperheroView()
+        SuperheroView(superH: superherosData[3])
     }
 }
