@@ -20,6 +20,7 @@
 /* Begin PBXFileReference section */
 		A10FAAAA2902FD4F009C24F3 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		A10FAAAC2902FD7B009C24F3 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		A10FAAB429033241009C24F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A128720628F8336B00D0C419 /* Superhero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Superhero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A128720928F8336B00D0C419 /* SuperheroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroApp.swift; sourceTree = "<group>"; };
 		A128720B28F8336B00D0C419 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +41,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10FAAAE290330CB009C24F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1AD0F5C29012CBC003BFEE8 /* Superhero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A10FAAAF290330D3009C24F3 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				A10FAAAA2902FD4F009C24F3 /* chimeup.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		A10FAAB0290330F7009C24F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A128720928F8336B00D0C419 /* SuperheroApp.swift */,
+				A128720B28F8336B00D0C419 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A10FAAB229033108009C24F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A128721728F8360400D0C419 /* SuperheroView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A10FAAB329033122009C24F3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A10FAAAC2902FD7B009C24F3 /* PlaySound.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		A12871FD28F8336B00D0C419 = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +101,14 @@
 		A128720828F8336B00D0C419 /* Superhero */ = {
 			isa = PBXGroup;
 			children = (
-				A128720928F8336B00D0C419 /* SuperheroApp.swift */,
-				A128720B28F8336B00D0C419 /* ContentView.swift */,
+				A10FAAB329033122009C24F3 /* Utilities */,
+				A10FAAB229033108009C24F3 /* Components */,
+				A10FAAB0290330F7009C24F3 /* View */,
+				A10FAAAF290330D3009C24F3 /* Sound */,
+				A10FAAAE290330CB009C24F3 /* Model */,
 				A128720D28F8337200D0C419 /* Assets.xcassets */,
+				A10FAAB429033241009C24F3 /* Info.plist */,
 				A128720F28F8337200D0C419 /* Preview Content */,
-				A128721728F8360400D0C419 /* SuperheroView.swift */,
-				A1AD0F5C29012CBC003BFEE8 /* Superhero.swift */,
-				A10FAAAA2902FD4F009C24F3 /* chimeup.mp3 */,
-				A10FAAAC2902FD7B009C24F3 /* PlaySound.swift */,
 			);
 			path = Superhero;
 			sourceTree = "<group>";
@@ -286,9 +328,10 @@
 				DEVELOPMENT_TEAM = KSQAVXV66T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Superhero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,9 +358,10 @@
 				DEVELOPMENT_TEAM = KSQAVXV66T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Superhero/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
